@@ -7,7 +7,11 @@ function init() {
     if (key === code[index]) {
       index++;
       if (index === code.length) {
-        alert("Konami wants to congratulate you!!!")
+        alert("Konami wants to congratulate you!!!");
+        index = 0;
+      }
+      else {
+        index = 0;
       }
     }
   }
