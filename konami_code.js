@@ -10,7 +10,8 @@ function init() {
         alert("Konami wants to congratulate you!!!");
         index = 0;
       }
-      else {
+    }
+    else {
         index = 0;
       }
     }
